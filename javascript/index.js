@@ -55,11 +55,14 @@ function setResetBtn() {
 }
 
 // Start/Stop Button
-btnLeftElement.addEventListener('click', () => {
-  // ... your code goes here
+btnLeftElement.addEventListener('click', (event) => {
+  const clickedBtn = event.currentTarget;
+  clickedBtn.classList.toggle("stop");
+  clickedBtn.toggle
+
 });
 
 // Reset/Split Button
-btnRightElement.addEventListener('click', () => {
-  // ... your code goes here
+btnRightElement.addEventListener('click', (event) => {
+  const clickedBtn = event.currentTarget;
 });
