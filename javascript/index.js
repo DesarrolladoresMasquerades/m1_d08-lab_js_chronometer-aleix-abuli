@@ -58,7 +58,8 @@ function setResetBtn() {
 btnLeftElement.addEventListener('click', (event) => {
   const clickedBtn = event.currentTarget;
   clickedBtn.classList.toggle("stop");
-  clickedBtn.toggle
+  if(clickedBtn.innerText === "START") clickedBtn.innerText === "STOP"
+  else clickedBtn.innerText === "START"
 
 });
 
